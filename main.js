@@ -8,11 +8,7 @@ const kuji = () => {
     console.log(typeof num);
     console.log(num);
     if(num > 1){
-        // console.log("num is true");
         str = "<span class='num'>" + Math.ceil(Math.random() * num) + "</span>";
-    } else {
-        // console.log("num is false");
-        // answer.innerText(str);
     }
     answer.innerHTML = str;
 }

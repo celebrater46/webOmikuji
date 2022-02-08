@@ -7,6 +7,17 @@ html{
 body{
     background-color: black;
     color: silver;
+    text-align: center;
+}
+
+h1{
+    font-size: 4rem;
+    margin: 30px auto 100px;
+}
+
+div.containter{
+    width: 1000px;
+    margin: 0 auto;
 }
 
 div#answer{
